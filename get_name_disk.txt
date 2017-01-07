@@ -1,3 +1,0 @@
-for n in $(ls /dev/disk/by-label/)
-echo $n&&file /dev/disk/by-label/$n | grep -o -i "[a-z]*[0-9]*$"&&echo ------------
-
